@@ -14,7 +14,7 @@ public class Moviento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Input.GetAxis("Horizontal")*velocidad, 0, Input.GetAxis("Vertical")*velocidad);
+        transform.Translate(Input.GetAxis("Vertical")*velocidad, 0, Input.GetAxis("Horizontal")*velocidad);
         transform.Rotate(0, Input.GetAxis("Mouse X"), 0);
 
       

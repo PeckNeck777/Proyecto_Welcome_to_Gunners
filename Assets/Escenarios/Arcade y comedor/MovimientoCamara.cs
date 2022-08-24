@@ -13,6 +13,6 @@ public class MovimientoCamara : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Input.GetAxis("Mouse Y"), 0, 0);
+        transform.Rotate(0, Input.GetAxis("Mouse Y"), 0);
     }
 }
