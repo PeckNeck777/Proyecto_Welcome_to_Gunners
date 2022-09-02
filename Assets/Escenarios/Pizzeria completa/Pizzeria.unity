@@ -3654,6 +3654,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e3fbbd87b569d4b998b3267be13b48, type: 3}
+--- !u!1 &421332852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6653161815010562686, guid: bbed36c6799390649840d594698768f5, type: 3}
+  m_PrefabInstance: {fileID: 6316904329815401567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &421332853
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421332852}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3464017d5919b343b765c2ed1c23440, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &421332854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421332852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5bb579539785db4cbd23be36ae2eb83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puertaDerecha: {fileID: 421332852}
+  animator: {fileID: 421332853}
 --- !u!1 &425435208
 GameObject:
   m_ObjectHideFlags: 0
@@ -12782,6 +12820,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458061265}
   m_CullTransparentMesh: 1
+--- !u!1 &1458814137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1621664942029473932, guid: bbed36c6799390649840d594698768f5, type: 3}
+  m_PrefabInstance: {fileID: 6316904329815401567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1458814138
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458814137}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70a71b7d83083124eb8208f25b6102c4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1458814139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458814137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6701baa4089ce0546b4410dfc7c4f0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PuertaIzquierda: {fileID: 1458814137}
+  animator: {fileID: 1458814138}
 --- !u!1 &1463093052
 GameObject:
   m_ObjectHideFlags: 0
@@ -17060,10 +17136,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1621664942029473932, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_Name
+      value: Puerta izquierda oficina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3590953952487675876, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.03694
+      objectReference: {fileID: 0}
+    - target: {fileID: 3590953952487675876, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3590953952487675876, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.14854
+      objectReference: {fileID: 0}
     - target: {fileID: 4030915203599377957, guid: bbed36c6799390649840d594698768f5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2cc039f055810214597bd57ab3ec0dd8, type: 2}
+    - target: {fileID: 4390597888996137386, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390597888996137386, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -37.57724
+      objectReference: {fileID: 0}
     - target: {fileID: 4521766044677017572, guid: bbed36c6799390649840d594698768f5, type: 3}
       propertyPath: m_Name
       value: modelos
@@ -17115,6 +17215,10 @@ PrefabInstance:
     - target: {fileID: 5955303271166456841, guid: bbed36c6799390649840d594698768f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653161815010562686, guid: bbed36c6799390649840d594698768f5, type: 3}
+      propertyPath: m_Name
+      value: 'Puerta derecha oficina '
       objectReference: {fileID: 0}
     - target: {fileID: 7851883678937140913, guid: bbed36c6799390649840d594698768f5, type: 3}
       propertyPath: m_LocalPosition.y
