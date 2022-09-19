@@ -6,7 +6,8 @@ public class Puertas : MonoBehaviour
 {
     public GameObject puertaDerecha;
     public Animator animator;
-    
+    public AudioSource abrir;
+    public AudioSource cerrar;
 
     // Start is called before the first frame update
     void Start()
@@ -25,11 +26,14 @@ public class Puertas : MonoBehaviour
         if (Input.GetKey(KeyCode.K))
         {
            animator.SetBool("cerrar", true);
+            cerrar.Play();
         }
         if (Input.GetKey(KeyCode.L))
         {
             animator.SetBool("cerrar", false);
+            abrir.Play();
         }
+        
 
     }
 }
