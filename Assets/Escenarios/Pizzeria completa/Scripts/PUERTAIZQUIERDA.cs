@@ -6,6 +6,8 @@ public class PUERTAIZQUIERDA : MonoBehaviour
 {
     public GameObject PuertaIzquierda;
     public Animator animator;
+    public AudioSource abrir;
+    public AudioSource cerrar;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,11 +26,14 @@ public class PUERTAIZQUIERDA : MonoBehaviour
         if (Input.GetKey(KeyCode.Z))
         {
             animator.SetBool("Cerrar", true);
+            cerrar.Play();
         }
+       
         if (Input.GetKey(KeyCode.X))
         {
             animator.SetBool("Cerrar", false);
+            abrir.Play();
         }
-
+      
     }
 }
