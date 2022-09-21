@@ -27,5 +27,65 @@ public class mision2luces : MonoBehaviour
         {
             luz1.SetActive(false);
         }
+        if (other.transform.name == "area2")
+        {
+            luz2.SetActive(false);
+        }
+        if (other.transform.name == "area3")
+        {
+            luz3.SetActive(false);
+        }
+        if (other.transform.name == "area4")
+        {
+            luz4.SetActive(false);
+        }
+        if (other.transform.name == "area5")
+        {
+            luz5.SetActive(false);
+        }
+        if (other.transform.name == "area6")
+        {
+            luz6.SetActive(false);
+        }
+        if (other.transform.name == "area7")
+        {
+            luz7.SetActive(false);
+        }
+        if (other.transform.name == "area8")
+        {
+            luz8.SetActive(false);
+        }
+        if (other.transform.name == "area9")
+        {
+            luz9.SetActive(false);
+        }
+        if (other.transform.name == "area10")
+        {
+            luz10.SetActive(false);
+        }
+        if (other.transform.name == "area11")
+        {
+            luz11.SetActive(false);
+        }
+        if (other.transform.name == "area12")
+        {
+            luz12.SetActive(false);
+        }
+        if (other.transform.name == "area13")
+        {
+            luz13.SetActive(false);
+        }
+        if (other.transform.name == "area14")
+        {
+            luz14.SetActive(false);
+        }
+        if (other.transform.name == "area15")
+        {
+            luz15.SetActive(false);
+        }
+        if (other.transform.name == "area16")
+        {
+            luz16.SetActive(false);
+        }
     }
 }
